@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body.noScroll,
+body.no-scroll{
+	overflow: hidden; 
+    height: 100vh;
+    @supports (-webkit-overflow-scrolling: touch) {
+        height: 100%; 
+        width: 100%; 
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+h1, .heading1 { font-size: 3.5em; }
+h2, .heading2 { font-size: 2.5em; }
+h3, .heading3 { font-size: 1.75em; }
+h4, .heading4 { font-size: 1.5em; }
+h5, .heading5 { font-size: 1.25em; }
+
+section{
+    
+    padding: 3rem 1.5rem;
+    
+    @media only screen and (min-width:960px){
+		padding: 6rem 6rem;
+	}
+	.container{
+		max-width: 625px;
+        width: 100%;
+		margin: 0 auto;
+		@media only screen and (min-width:960px){
+			max-width: 1200px;
+            
+		}
+	}
+}
+
+img{
+    width: 100%;
+}

@@ -1,0 +1,71 @@
+/*
+    Theme Name: Twenty Seventeen Child
+    Template: Twenty Seventeen
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body.noScroll,
+body.no-scroll {
+  overflow: hidden;
+  height: 100vh; }
+  @supports (-webkit-overflow-scrolling: touch) {
+    body.noScroll,
+    body.no-scroll {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0; } }
+
+h1, .heading1 {
+  font-size: 3.5em; }
+
+h2, .heading2 {
+  font-size: 2.5em; }
+
+h3, .heading3 {
+  font-size: 1.75em; }
+
+h4, .heading4 {
+  font-size: 1.5em; }
+
+h5, .heading5 {
+  font-size: 1.25em; }
+
+section {
+  padding: 3rem 1.5rem; }
+  @media only screen and (min-width: 960px) {
+    section {
+      padding: 6rem 6rem; } }
+  section .container {
+    max-width: 625px;
+    margin: 0 auto; }
+    @media only screen and (min-width: 960px) {
+      section .container {
+        max-width: 1200px; } }
+
+img {
+  width: 100%; }
+
+.hero {
+  height: 95vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .hero .container .logo {
+    max-width: 500px;
+    width: 100%; }
+
+.video .top .container {
+  background-color: rgba(0, 0, 0, 0.7); }
+
+/*# sourceMappingURL=style.css.map */

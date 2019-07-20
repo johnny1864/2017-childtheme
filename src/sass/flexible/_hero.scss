@@ -1,0 +1,17 @@
+.hero{
+    height: 95vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .container{
+        .logo{
+            max-width: 500px;
+            width: 100%;
+        }
+    }
+}
