@@ -1,7 +1,54 @@
-.video{
-    .top{
-        .container{
+section.video {
+    padding: 0;
+
+    .top {
+        .container {
             background-color: rgba(0, 0, 0, 0.7);
+            padding: 3rem 1.5rem;
+            color: $white;
+            
+            .heading2{
+                margin-bottom: 3rem;
+            }
+            @media screen and (min-width: 960px) {
+                padding: 3rem 6rem;
+                
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .bottom {
+        
+        padding: 3rem 1.5rem;
+        
+        @media screen and (min-width: 960px) {
+            display: flex;
+            position: relative;
+            padding: unset;
+        }
+
+        article.left {
+            background-color: $black;
+            color: $white;
+            
+            
+            @media screen and (min-width: 960px){
+                width: 50%;
+                padding: 3em 6em;
+            }
+        }
+
+        .right {
+            @media screen and (min-width: 960px) {
+                width: 50%;
+                position: absolute;
+                left: 50%;
+                top: 0;
+                height: 100%;
+            }
         }
     }
 }
