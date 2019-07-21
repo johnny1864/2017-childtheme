@@ -21,22 +21,20 @@ section.video {
     }
 
     .bottom {
-        
+        background-color: $black;
         padding: 3rem 1.5rem;
         
         @media screen and (min-width: 960px) {
             display: flex;
             position: relative;
             padding: unset;
+            background-color: $black;
         }
 
         article.left {
-            background-color: $black;
-            color: $white;
-            
-            
+            color: $white; 
             @media screen and (min-width: 960px){
-                width: 50%;
+                width: 40%;
                 padding: 3em 6em;
             }
         }
@@ -45,7 +43,7 @@ section.video {
             @media screen and (min-width: 960px) {
                 width: 50%;
                 position: absolute;
-                left: 50%;
+                left: 60%;
                 top: 0;
                 height: 100%;
             }

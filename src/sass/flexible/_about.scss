@@ -1,0 +1,35 @@
+section.about{
+    background-color: $black;
+    color: $white;
+
+    .container{
+        @media screen and (min-width: 960px) {
+            display: flex;
+            
+            .heading2{
+                margin-bottom: 3rem;
+            }
+            .about-text{
+                width: 40%;
+                padding-right: 9rem;
+            }
+            
+            .gallery{
+                width: 60%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                figure{
+                    width: 40%;
+                    max-height: 300px;
+                    margin-bottom: 2rem;
+                    img{
+                        object-fit: cover;
+                        height: 100%;
+                    }
+                }
+                
+            }
+        }
+    }
+}
