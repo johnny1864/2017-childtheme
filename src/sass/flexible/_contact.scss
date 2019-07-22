@@ -1,0 +1,51 @@
+.contact {
+    background: $black;
+    color: $white;
+
+    .left {
+        
+        form {
+            margin-top: 2rem;
+
+            input {
+                display: block;
+                width: 100%;
+                margin-bottom: 1rem;
+                padding: 1rem 0;
+                font-size: 1.2em;
+            }
+
+            .btn {
+                background-color: $black;
+                color: $white;
+                border: 1px solid $white;
+            }
+        }
+
+    }
+
+    .right {
+        display: none;
+    }
+
+    @media screen and (min-width: 960px) {
+        .container {
+            display: flex;
+
+            .left {
+                width: 40%;
+                padding-right: 9rem;
+            }
+
+            .right {
+                display: block;
+                width: 60%;
+
+                img {
+                    object-fit: cover;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

@@ -40,10 +40,11 @@ section.video {
         }
 
         .right {
+            min-height: 400px;
             @media screen and (min-width: 960px) {
-                width: 50%;
+                width: 60%;
                 position: absolute;
-                left: 60%;
+                left: 40%;
                 top: 0;
                 height: 100%;
             }
